@@ -41,7 +41,7 @@ This project is an independent implementation and is not affiliated with NEXON o
 
 Copyright (C) 2026 Derstin
 
-This project is licensed under the GNU Affero General Public License
+This project is licensed under the GNU General Public License
 version 3 or later.
 
 SPDX-License-Identifier: GPL-3.0-or-later
@@ -99,7 +99,7 @@ C++와 JUCE로 제작한 마비노기 MML 편집 도구입니다.
 
 Copyright (C) 2026 Derstin
 
-이 프로젝트는 GNU Affero General Public License
+이 프로젝트는 GNU General Public License
 버전 3 또는 그 이후 버전에 따라 라이선스가 부여됩니다.
 
 SPDX-License-Identifier: GPL-3.0-or-later
@@ -157,7 +157,7 @@ C++ と JUCE で制作された Mabinogi MML エディターツールです。
 
 Copyright (C) 2026 Derstin
 
-本プロジェクトは、GNU Affero General Public License
+本プロジェクトは、GNU General Public License
 バージョン3またはそれ以降のバージョンに基づいてライセンスされています。
 
 SPDX-License-Identifier: GPL-3.0-or-later
