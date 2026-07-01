@@ -37,7 +37,7 @@ This project was inspired by existing Mabinogi MML tools and resources:
 
 This project is an independent implementation and is not affiliated with NEXON or Mabinogi.
 
-Atelier de Derstin - MML Editor
+### Atelier de Derstin - MML Editor
 
 Copyright (C) 2026 Derstin
 
@@ -95,7 +95,7 @@ C++와 JUCE로 제작한 마비노기 MML 편집 도구입니다.
 
 이 프로젝트는 독립 구현이며 NEXON 또는 Mabinogi와 제휴되어 있지 않습니다.
 
-Atelier de Derstin - MML Editor
+### Atelier de Derstin - MML Editor
 
 Copyright (C) 2026 Derstin
 
@@ -153,7 +153,7 @@ C++ と JUCE で制作された Mabinogi MML エディターツールです。
 
 このプロジェクトは独立した実装であり、NEXON または Mabinogi とは提携していません。
 
-Atelier de Derstin - MML Editor
+### Atelier de Derstin - MML Editor
 
 Copyright (C) 2026 Derstin
 
