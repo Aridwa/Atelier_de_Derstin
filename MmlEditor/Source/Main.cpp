@@ -1,10 +1,6 @@
 #include <JuceHeader.h>
 #include "MainComponent.h"
 
-#if JUCE_WINDOWS
-#include <windows.h>
-#endif
-
 class MmlEditorApplication : public juce::JUCEApplication
 {
 public:
@@ -55,7 +51,6 @@ public:
 #endif
 
             setVisible(true);
-            applyNativeWindowsIconFromResource();
         }
         void closeButtonPressed() override
         {
@@ -98,38 +93,7 @@ public:
             }
         }
 
-        void applyNativeWindowsIconFromResource()
-        {
-#if JUCE_WINDOWS
-            auto* peer = getPeer();
-            if (peer == nullptr)
-                return;
 
-            auto* hwnd = static_cast<HWND>(peer->getNativeHandle());
-            if (hwnd == nullptr)
-                return;
-
-            auto* instance = GetModuleHandle(nullptr);
-
-            HICON bigIcon = static_cast<HICON>(
-                LoadImage(instance, MAKEINTRESOURCE(1), IMAGE_ICON, 256, 256, LR_DEFAULTCOLOR));
-
-            HICON smallIcon = static_cast<HICON>(
-                LoadImage(instance, MAKEINTRESOURCE(1), IMAGE_ICON, 16, 16, LR_DEFAULTCOLOR));
-
-            if (bigIcon != nullptr)
-            {
-                SendMessage(hwnd, WM_SETICON, ICON_BIG, reinterpret_cast<LPARAM>(bigIcon));
-                SetClassLongPtr(hwnd, GCLP_HICON, reinterpret_cast<LONG_PTR>(bigIcon));
-            }
-
-            if (smallIcon != nullptr)
-            {
-                SendMessage(hwnd, WM_SETICON, ICON_SMALL, reinterpret_cast<LPARAM>(smallIcon));
-                SetClassLongPtr(hwnd, GCLP_HICONSM, reinterpret_cast<LONG_PTR>(smallIcon));
-            }
-#endif
-        }
 
         JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR(MainWindow)
     };

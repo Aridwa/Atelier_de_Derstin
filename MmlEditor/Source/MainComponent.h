@@ -238,6 +238,8 @@ private:
     void zoomMabbiicoTimeline(float localMouseX, float wheelDeltaY);
     void seekToBeat(double beat);
     void handlePianoRollNoteDoubleClick(int partIdx, int noteIdx, int textStart, int textEnd);
+    void focusThreeMleEditorAtTextRange(int partIdx, int textStart, int textEnd);
+    void focusThreeMleEditorAtPianoRollNote(int partIdx, int noteIdx);
     void beginMabbiicoUndoTransaction();
     void endMabbiicoUndoTransaction();
     void beginMabbiicoMoveSnapshot();

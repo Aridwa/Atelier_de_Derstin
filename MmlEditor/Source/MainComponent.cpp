@@ -2927,19 +2927,7 @@ void MainComponent::handlePianoRollNoteDoubleClick(int partIdx, int noteIdx, int
     if (textEnd <= textStart)
         return;
 
-    auto* ed = &trackEditors[partIdx];
-    if (!ed->isVisible()) return;
-
-    const auto editorHighlight = getEditorPlaybackHighlightColour(partIdx);
-    ed->setColour(juce::TextEditor::highlightColourId, editorHighlight);
-    ed->setColour(juce::TextEditor::highlightedTextColourId, CustomUI::getReadableTextColour(editorHighlight));
-    ed->grabKeyboardFocus();
-    ed->setCaretPosition(textStart);
-    ed->setHighlightedRegion(juce::Range<int>(textStart, textEnd));
-    ed->repaint();
-    playbackEditorHighlightStart[partIdx] = textStart;
-    playbackEditorHighlightEnd[partIdx] = textEnd;
-    playbackEditorHighlightActive = true;
+    focusThreeMleEditorAtTextRange(partIdx, textStart, textEnd);
 }
 
 
@@ -3261,12 +3249,79 @@ void MainComponent::applyPianoRollNoteVolume(int partIdx, int noteIdx, int volum
 }
 
 
+void MainComponent::focusThreeMleEditorAtTextRange(int partIdx, int textStart, int textEnd)
+{
+    if (isSubScreenVisible)
+        return;
+
+    if (partIdx < 0 || partIdx >= 4)
+        return;
+
+    auto* editor = &trackEditors[partIdx];
+    if (!editor->isVisible())
+        return;
+
+    const int textLength = editor->getText().length();
+    const int start = juce::jlimit(0, textLength, textStart);
+    const int end = juce::jlimit(start, textLength, textEnd);
+
+    if (end <= start)
+        return;
+
+    // Clear only the visual selection from the other editors while preserving their caret positions.
+    for (int i = 0; i < 4; ++i)
+    {
+        if (i == partIdx || !trackEditors[i].isVisible())
+            continue;
+
+        const int caret = juce::jlimit(0, trackEditors[i].getText().length(), trackEditors[i].getCaretPosition());
+        trackEditors[i].setHighlightedRegion(juce::Range<int>(caret, caret));
+    }
+
+    const auto editorHighlight = getEditorPlaybackHighlightColour(partIdx);
+    editor->setColour(juce::TextEditor::highlightColourId, editorHighlight);
+    editor->setColour(juce::TextEditor::highlightedTextColourId, CustomUI::getReadableTextColour(editorHighlight));
+
+    editor->grabKeyboardFocus();
+    editor->setCaretPosition(start);
+    editor->setHighlightedRegion(juce::Range<int>(start, end));
+    editor->repaint();
+
+    // Manual 3MLE note selection is not playback highlight.
+    // Keep this false so timer/updatePlaybackEditorHighlights does not clear it while stopped.
+    playbackEditorHighlightStart[partIdx] = start;
+    playbackEditorHighlightEnd[partIdx] = end;
+    playbackEditorHighlightActive = false;
+}
+
+void MainComponent::focusThreeMleEditorAtPianoRollNote(int partIdx, int noteIdx)
+{
+    if (isSubScreenVisible)
+        return;
+
+    if (partIdx < 0 || partIdx >= 4 || noteIdx < 0)
+        return;
+
+    const auto& sequence = banks[currentBankIndex].tracks[partIdx].sequence;
+    if (noteIdx >= static_cast<int>(sequence.size()))
+        return;
+
+    const auto& note = sequence[static_cast<size_t>(noteIdx)];
+    if (note.textStart < 0 || note.textEnd <= note.textStart)
+        return;
+
+    focusThreeMleEditorAtTextRange(partIdx, note.textStart, note.textEnd);
+}
+
 void MainComponent::handlePianoRollNoteSelected(int partIdx, int noteIdx) {
     selectedPianoRollPartIdx = partIdx;
     selectedPianoRollNoteIdx = noteIdx;
     selectedPianoRollNotes.clear();
     if (partIdx >= 0 && noteIdx >= 0)
+    {
         selectedPianoRollNotes.push_back({ partIdx, noteIdx });
+        focusThreeMleEditorAtPianoRollNote(partIdx, noteIdx);
+    }
 }
 
 void MainComponent::handlePianoRollNotesSelected(const std::vector<std::pair<int, int>>& notes) {
@@ -3275,6 +3330,7 @@ void MainComponent::handlePianoRollNotesSelected(const std::vector<std::pair<int
     {
         selectedPianoRollPartIdx = selectedPianoRollNotes.front().first;
         selectedPianoRollNoteIdx = selectedPianoRollNotes.front().second;
+        focusThreeMleEditorAtPianoRollNote(selectedPianoRollPartIdx, selectedPianoRollNoteIdx);
     }
     else
     {
@@ -3997,7 +4053,11 @@ void MainComponent::clearPlaybackEditorHighlights() {
     if (!playbackEditorHighlightActive) return;
     for (int i = 0; i < 4; ++i) {
         playbackEditorHighlightStart[i] = -1; playbackEditorHighlightEnd[i] = -1;
-        trackEditors[i].setHighlightedRegion(juce::Range<int>(0, 0));
+
+        // Do not force the caret to the beginning when clearing playback highlight.
+        // This was causing 3MLE note selection to jump back to position 0.
+        const int caret = juce::jlimit(0, trackEditors[i].getText().length(), trackEditors[i].getCaretPosition());
+        trackEditors[i].setHighlightedRegion(juce::Range<int>(caret, caret));
         trackEditors[i].repaint();
     }
     playbackEditorHighlightActive = false;
