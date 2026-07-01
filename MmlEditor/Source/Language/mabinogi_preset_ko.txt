@@ -1,0 +1,126 @@
+# Mabinogi preset Korean translation
+# Folder: Language
+# File: mabinogi_preset_ko.txt
+# Format:
+#   <file stem>:<preset index>=<translated name>
+#   <raw preset name>=<translated name>
+
+# Fury_Sound_Pack_v150 / Mabinogi Mobile
+Fury_Sound_Pack_v150:18=피아노
+Fury_Sound_Pack_v150:20=하프
+Fury_Sound_Pack_v150:25=오르골
+Fury_Sound_Pack_v150:62=큰 북
+Fury_Sound_Pack_v150:63=심벌즈
+Fury_Sound_Pack_v150:122=만돌린
+Fury_Sound_Pack_v150:123=류트
+Fury_Sound_Pack_v150:124=샬루모
+Fury_Sound_Pack_v150:125=플루트
+Fury_Sound_Pack_v150:126=실로폰
+Fury_Sound_Pack_v150:127=바이올린
+
+# Compatibility aliases for old file names
+Fury Sound Pack:18=피아노
+Fury Sound Pack:20=하프
+Fury Sound Pack:25=오르골
+Fury Sound Pack:62=큰 북
+Fury Sound Pack:63=심벌즈
+Fury Sound Pack:122=만돌린
+Fury Sound Pack:123=류트
+Fury Sound Pack:124=샬루모
+Fury Sound Pack:125=플루트
+Fury Sound Pack:126=실로폰
+Fury Sound Pack:127=바이올린
+
+# MSXspirit01
+MSXspirit01:0=류트
+MSXspirit01:1=우쿨렐레
+MSXspirit01:2=만돌린
+MSXspirit01:3=휘슬
+MSXspirit01:4=론카도라
+MSXspirit01:5=플루트
+MSXspirit01:6=샬루모
+MSXspirit01:7='도'음 빈 병
+MSXspirit01:8='레'음 빈 병
+MSXspirit01:9='미'음 빈 병
+MSXspirit01:10='파'음 빈 병
+MSXspirit01:11='솔'음 빈 병
+MSXspirit01:12='시'음 빈 병
+MSXspirit01:13='라'음 빈 병
+MSXspirit01:14=방울새
+MSXspirit01:15=팔색조
+MSXspirit01:16=물총새
+MSXspirit01:17=방울새 짧은음
+MSXspirit01:18=튜바
+MSXspirit01:19=리라
+MSXspirit01:20=일렉기타
+MSXspirit01:21=피아노
+MSXspirit01:22=바이올린
+MSXspirit01:23=첼로
+MSXspirit01:24=튜닝 바이올린
+MSXspirit01:25=튜닝 첼로
+MSXspirit01:26=스네어
+MSXspirit01:27=큰 북
+MSXspirit01:28=작은 북
+MSXspirit01:29=심벌즈
+MSXspirit01:30='도'음 핸드벨
+MSXspirit01:31='레'음 핸드벨
+MSXspirit01:32='미'음 핸드벨
+MSXspirit01:33='파'음 핸드벨
+MSXspirit01:34='솔'음 핸드벨
+MSXspirit01:35='라'음 핸드벨
+MSXspirit01:36='시'음 핸드벨
+MSXspirit01:37=높은 '도' 음 핸드벨
+MSXspirit01:38=실로폰
+
+# MSXspirit02
+MSXspirit02:0=마이크(남) 1
+MSXspirit02:1=마이크(남) 2
+MSXspirit02:2=마이크(남) 3
+MSXspirit02:3=마이크(남) 4
+MSXspirit02:4=마이크(남) 5
+MSXspirit02:5=마이크(여) 6
+MSXspirit02:6=마이크(여) 7
+MSXspirit02:7=마이크(여) 8
+MSXspirit02:8=마이크(여) 9
+MSXspirit02:9=마이크(여) 10
+MSXspirit02:10=환상의 코러스(남)
+MSXspirit02:11=환상의 코러스(여)
+MSXspirit02:12=밀키웨이 마이크(남)
+MSXspirit02:13=밀키웨이 마이크(여)
+
+# MSXspirit03
+MSXspirit03:0=축제 류트
+MSXspirit03:1=축제 우쿨렐레
+MSXspirit03:2=축제 만돌린
+MSXspirit03:3=축제 휘슬
+MSXspirit03:4=축제 플루트
+
+# MSXspirit04
+MSXspirit04:0=하프
+MSXspirit04:1=드럼
+MSXspirit04:2=가야금
+MSXspirit04:3=튜닝 플루트
+MSXspirit04:4=튜닝 휘슬
+
+# MSXspirit05
+MSXspirit05:0=베이스
+
+# Raw preset name fallback
+Lute=류트
+Ukulele=우쿨렐레
+Mandolin=만돌린
+Mandollin=만돌린
+Roncadora=론카도라
+Flute=플루트
+Chalumeau=샬루모
+Whistle=휘슬
+Piano=피아노
+Violin=바이올린
+Cello=첼로
+Harp=하프
+Music Box=오르골
+Bass Drum=큰 북
+Snare Drum=작은 북
+Cymbals=심벌즈
+Xylophone=실로폰
+Bass=베이스

@@ -1,0 +1,130 @@
+# SF2 preset Japanese display names
+# Put this file in MabinogiSf2/sf2_preset_ja.txt
+# Format A: MSXspirit01:0=リュート   ; exact file/index match, highest priority
+# Format B: Lute=リュート            ; raw preset name fallback
+# Change values and press SF2 Reload or switch language to refresh.
+
+# Exact MSXspirit01 presets
+MSXspirit01:0=リュート
+MSXspirit01:1=ウクレレ
+MSXspirit01:2=マンドリン
+MSXspirit01:3=ホイッスル
+MSXspirit01:4=ロンカドーラ
+MSXspirit01:5=フルート
+MSXspirit01:6=シャリュモー
+MSXspirit01:7=空き瓶（ド）
+MSXspirit01:8=空き瓶（レ）
+MSXspirit01:9=空き瓶（ミ）
+MSXspirit01:10=空き瓶（ファ）
+MSXspirit01:11=空き瓶（ソ）
+MSXspirit01:12=空き瓶（シ）
+MSXspirit01:13=空き瓶（ラ）
+MSXspirit01:14=カワラヒワ
+MSXspirit01:15=ヤイロチョウ
+MSXspirit01:16=カワセミ
+MSXspirit01:17=カワラヒワ短音
+MSXspirit01:18=チューバ
+MSXspirit01:19=リラ
+MSXspirit01:20=エレキギター
+MSXspirit01:21=ピアノ
+MSXspirit01:22=バイオリン・ビブラート
+MSXspirit01:23=チェロ
+MSXspirit01:24=バイオリン・ロングトーン
+MSXspirit01:25=チェロ・マルカート
+MSXspirit01:26=スネア C3
+MSXspirit01:27=バスドラム
+MSXspirit01:28=スネア 1
+MSXspirit01:29=シンバル
+MSXspirit01:30=ハンドベル C3
+MSXspirit01:31=ハンドベル D3
+MSXspirit01:32=ハンドベル E3
+MSXspirit01:33=ハンドベル F3
+MSXspirit01:34=ハンドベル G3
+MSXspirit01:35=ハンドベル A3
+MSXspirit01:36=ハンドベル B3
+MSXspirit01:37=ハンドベル C4
+MSXspirit01:38=シロフォン
+
+# Exact MSXspirit02 vocal presets
+MSXspirit02:0=マイク(男) 1
+MSXspirit02:1=マイク(男) 2
+MSXspirit02:2=マイク(男) 3
+MSXspirit02:3=マイク(男) 4
+MSXspirit02:4=マイク(男) 5
+MSXspirit02:5=マイク(女) 6
+MSXspirit02:6=マイク(女) 7
+MSXspirit02:7=マイク(女) 8
+MSXspirit02:8=マイク(女) 9
+MSXspirit02:9=マイク(女) 10
+MSXspirit02:10=幻想のコーラス(男)
+MSXspirit02:11=幻想のコーラス(女)
+MSXspirit02:12=ミルキーウェイマイク(男)
+MSXspirit02:13=ミルキーウェイマイク(女)
+
+# Exact MSXspirit03 presets
+MSXspirit03:0=祭りのリュート
+MSXspirit03:1=祭りのウクレレ
+MSXspirit03:2=祭りのマンドリン
+MSXspirit03:3=祭りのホイッスル
+MSXspirit03:4=祭りのフルート
+
+# Exact MSXspirit04 presets
+MSXspirit04:0=ハープ
+MSXspirit04:1=ドラム
+MSXspirit04:2=カヤグム
+MSXspirit04:3=チューニングフルート
+MSXspirit04:4=チューニングホイッスル
+
+# Exact MSXspirit05 presets
+MSXspirit05:0=ベース
+
+# Raw preset name fallback translations
+Lute=リュート
+Ukulele=ウクレレ
+Mandolin=マンドリン
+Recorder=リコーダー
+Pipe=パイプ
+Flute=フルート
+Oboe=オーボエ
+Whistle=ホイッスル
+Bottle_C=空き瓶（ド）
+Bottle_D=空き瓶（レ）
+Bottle_E=空き瓶（ミ）
+Bottle_F=空き瓶（ファ）
+Bottle_G=空き瓶（ソ）
+Bottle_A=空き瓶（ラ）
+Bottle_B=空き瓶（シ）
+GreenFinch=カワラヒワ
+FairyPitta=ヤイロチョウ
+KingFisher=カワセミ
+GreenFinch_Short=カワラヒワ短音
+Tuba=チューバ
+Lyra=リラ
+electricguitar=エレキギター
+Piano=ピアノ
+Viollin_vt=バイオリン・ビブラート
+Violin_vt=バイオリン・ビブラート
+Viollin_long=バイオリン・ロングトーン
+Violin_long=バイオリン・ロングトーン
+Cello=チェロ
+Cello_Marcato=チェロ・マルカート
+Bass=ベース
+snare_c3=スネア C3
+snare_1=スネア 1
+bassdrum=バスドラム
+cymbal=シンバル
+Chime=シロフォン
+Handbell_C3=ハンドベル C3
+Handbell_D3=ハンドベル D3
+Handbell_E3=ハンドベル E3
+Handbell_F3=ハンドベル F3
+Handbell_G3=ハンドベル G3
+Handbell_A3=ハンドベル A3
+Handbell_B3=ハンドベル B3
+Handbell_C4=ハンドベル C4
+song=歌
+Harp=ハープ
+Drum=ドラム
+Gayageum=カヤグム
+Flute_Nonvib=チューニングフルート
+Whistle_Nonvib=チューニングホイッスル

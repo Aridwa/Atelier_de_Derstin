@@ -1,0 +1,103 @@
+# Mabinogi preset English translation
+# Folder: Language
+# File: mabinogi_preset_en.txt
+
+# Fury_Sound_Pack_v150 / Mabinogi Mobile
+Fury_Sound_Pack_v150:18=Piano
+Fury_Sound_Pack_v150:20=Harp
+Fury_Sound_Pack_v150:25=Music Box
+Fury_Sound_Pack_v150:62=Bass Drum
+Fury_Sound_Pack_v150:63=Cymbals
+Fury_Sound_Pack_v150:122=Mandolin
+Fury_Sound_Pack_v150:123=Lute
+Fury_Sound_Pack_v150:124=Chalumeau
+Fury_Sound_Pack_v150:125=Flute
+Fury_Sound_Pack_v150:126=Xylophone
+Fury_Sound_Pack_v150:127=Violin
+
+# Compatibility aliases
+Fury Sound Pack:18=Piano
+Fury Sound Pack:20=Harp
+Fury Sound Pack:25=Music Box
+Fury Sound Pack:62=Bass Drum
+Fury Sound Pack:63=Cymbals
+Fury Sound Pack:122=Mandolin
+Fury Sound Pack:123=Lute
+Fury Sound Pack:124=Chalumeau
+Fury Sound Pack:125=Flute
+Fury Sound Pack:126=Xylophone
+Fury Sound Pack:127=Violin
+
+# MSXspirit01
+MSXspirit01:0=Lute
+MSXspirit01:1=Ukulele
+MSXspirit01:2=Mandolin
+MSXspirit01:3=Whistle
+MSXspirit01:4=Roncadora
+MSXspirit01:5=Flute
+MSXspirit01:6=Chalumeau
+MSXspirit01:7=Bottle C
+MSXspirit01:8=Bottle D
+MSXspirit01:9=Bottle E
+MSXspirit01:10=Bottle F
+MSXspirit01:11=Bottle G
+MSXspirit01:12=Bottle B
+MSXspirit01:13=Bottle A
+MSXspirit01:14=Greenfinch
+MSXspirit01:15=Fairy Pitta
+MSXspirit01:16=Kingfisher
+MSXspirit01:17=Greenfinch Short
+MSXspirit01:18=Tuba
+MSXspirit01:19=Lyre
+MSXspirit01:20=Electric Guitar
+MSXspirit01:21=Piano
+MSXspirit01:22=Violin
+MSXspirit01:23=Cello
+MSXspirit01:24=Tuning Violin
+MSXspirit01:25=Tuning Cello
+MSXspirit01:26=Snare
+MSXspirit01:27=Bass Drum
+MSXspirit01:28=Snare Drum
+MSXspirit01:29=Cymbals
+MSXspirit01:30=Handbell C
+MSXspirit01:31=Handbell D
+MSXspirit01:32=Handbell E
+MSXspirit01:33=Handbell F
+MSXspirit01:34=Handbell G
+MSXspirit01:35=Handbell A
+MSXspirit01:36=Handbell B
+MSXspirit01:37=Handbell High C
+MSXspirit01:38=Xylophone
+
+# MSXspirit02
+MSXspirit02:0=Male Mic 1
+MSXspirit02:1=Male Mic 2
+MSXspirit02:2=Male Mic 3
+MSXspirit02:3=Male Mic 4
+MSXspirit02:4=Male Mic 5
+MSXspirit02:5=Female Mic 6
+MSXspirit02:6=Female Mic 7
+MSXspirit02:7=Female Mic 8
+MSXspirit02:8=Female Mic 9
+MSXspirit02:9=Female Mic 10
+MSXspirit02:10=Fantasy Chorus Male
+MSXspirit02:11=Fantasy Chorus Female
+MSXspirit02:12=Milky Way Mic Male
+MSXspirit02:13=Milky Way Mic Female
+
+# MSXspirit03
+MSXspirit03:0=Festival Lute
+MSXspirit03:1=Festival Ukulele
+MSXspirit03:2=Festival Mandolin
+MSXspirit03:3=Festival Whistle
+MSXspirit03:4=Festival Flute
+
+# MSXspirit04
+MSXspirit04:0=Harp
+MSXspirit04:1=Drum
+MSXspirit04:2=Gayageum
+MSXspirit04:3=Tuning Flute
+MSXspirit04:4=Tuning Whistle
+
+# MSXspirit05
+MSXspirit05:0=Bass

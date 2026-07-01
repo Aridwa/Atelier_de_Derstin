@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="SCVBWH" name="MmlEditor" projectType="guiapp" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" jucerFormatVersion="1">
+  <MAINGROUP id="XOYtHA" name="MmlEditor">
+    <GROUP id="{AE12B1A8-9800-C20D-BFAA-5E271405F8BF}" name="Source">
+      <GROUP id="{8F4D7A5D-E7C3-4B6C-B878-0374B1AF4FE0}" name="AudioEngine">
+        <FILE id="DuSlja" name="AudioEngine.h" compile="0" resource="0" file="Source/AudioEngine/AudioEngine.h"/>
+        <FILE id="uwE79Q" name="AudioEngine.cpp" compile="1" resource="0" file="Source/AudioEngine/AudioEngine.cpp"/>
+      </GROUP>
+      <GROUP id="{1B293062-BD37-92C0-B037-54A531D5DC7F}" name="CustomUI">
+        <FILE id="G0OJnP" name="CustomUI.h" compile="0" resource="0" file="Source/CustomUI/CustomUI.h"/>
+        <FILE id="A2X62r" name="CustomUI.cpp" compile="1" resource="0" file="Source/CustomUI/CustomUI.cpp"/>
+      </GROUP>
+      <GROUP id="{35062105-CE63-DE36-AD7C-5C64F69D3AFF}" name="MmlData">
+        <FILE id="dAZshZ" name="MmlData.h" compile="0" resource="0" file="Source/MmlData/MmlData.h"/>
+        <FILE id="xGk0wd" name="MmlLogic.h" compile="0" resource="0" file="Source/MmlData/MmlLogic.h"/>
+        <FILE id="FmKNaT" name="MmlLogic.cpp" compile="1" resource="0" file="Source/MmlData/MmlLogic.cpp"/>
+      </GROUP>
+      <GROUP id="{2D0A43F8-C765-2999-FCE1-3602BA5B229A}" name="ProjectFile">
+        <FILE id="bGhnw0" name="ProjectFileIO.h" compile="0" resource="0" file="Source/ProjectFile/ProjectFileIO.h"/>
+        <FILE id="dLSnNx" name="ProjectFileIO.cpp" compile="1" resource="0"
+              file="Source/ProjectFile/ProjectFileIO.cpp"/>
+      </GROUP>
+      <GROUP id="{6044B2DF-94CB-CBEF-47BB-9B86867472A6}" name="PianoRoll">
+        <FILE id="X5Rgsp" name="PianoRollComponent.h" compile="0" resource="0"
+              file="Source/PianoRoll/PianoRollComponent.h"/>
+      </GROUP>
+      <FILE id="PyYXAk" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+      <FILE id="E8xil0" name="MainComponent.cpp" compile="1" resource="0"
+            file="Source/MainComponent.cpp"/>
+      <FILE id="qv6nor" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors_headless" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1"/>
+  <EXPORTFORMATS>
+    <VS2026 targetFolder="Builds/VisualStudio2026" extraCompilerFlags="/utf-8">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="MmlEditor"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="MmlEditor"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../../../Desktop/juce/modules"/>
+        <MODULEPATH id="juce_core" path="../../../Desktop/juce/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../Desktop/juce/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../Desktop/juce/modules"/>
+        <MODULEPATH id="juce_events" path="../../../Desktop/juce/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../Desktop/juce/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../../Desktop/juce/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../Desktop/juce/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../Desktop/juce/modules"/>
+        <MODULEPATH id="juce_audio_processors_headless" path="../../../Desktop/juce/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../Desktop/juce/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../Desktop/juce/modules"/>
+      </MODULEPATHS>
+    </VS2026>
+  </EXPORTFORMATS>
+</JUCERPROJECT>

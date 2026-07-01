@@ -1,0 +1,130 @@
+# SF2 preset English display names
+# Put this file in MabinogiSf2/sf2_preset_en.txt
+# Format A: MSXspirit01:0=Lute       ; exact file/index match, highest priority
+# Format B: Viollin_vt=Violin Vibrato ; raw preset name fallback
+# Change values and press SF2 Reload or switch language to refresh.
+
+# Exact MSXspirit01 presets
+MSXspirit01:0=Lute
+MSXspirit01:1=Ukulele
+MSXspirit01:2=Mandolin
+MSXspirit01:3=Whistle
+MSXspirit01:4=Roncadora
+MSXspirit01:5=Flute
+MSXspirit01:6=Chalumeau
+MSXspirit01:7=Bottle C
+MSXspirit01:8=Bottle D
+MSXspirit01:9=Bottle E
+MSXspirit01:10=Bottle F
+MSXspirit01:11=Bottle G
+MSXspirit01:12=Bottle B
+MSXspirit01:13=Bottle A
+MSXspirit01:14=Greenfinch
+MSXspirit01:15=Fairy Pitta
+MSXspirit01:16=Kingfisher
+MSXspirit01:17=Greenfinch Short
+MSXspirit01:18=Tuba
+MSXspirit01:19=Lyre
+MSXspirit01:20=Electric Guitar
+MSXspirit01:21=Piano
+MSXspirit01:22=Violin Vibrato
+MSXspirit01:23=Cello
+MSXspirit01:24=Violin Long Tone
+MSXspirit01:25=Cello Marcato
+MSXspirit01:26=Snare C3
+MSXspirit01:27=Bass Drum
+MSXspirit01:28=Snare 1
+MSXspirit01:29=Cymbal
+MSXspirit01:30=Handbell C3
+MSXspirit01:31=Handbell D3
+MSXspirit01:32=Handbell E3
+MSXspirit01:33=Handbell F3
+MSXspirit01:34=Handbell G3
+MSXspirit01:35=Handbell A3
+MSXspirit01:36=Handbell B3
+MSXspirit01:37=Handbell C4
+MSXspirit01:38=Chime
+
+# Exact MSXspirit02 vocal presets
+MSXspirit02:0=Voice 1
+MSXspirit02:1=Voice 2
+MSXspirit02:2=Voice 3
+MSXspirit02:3=Voice 4
+MSXspirit02:4=Voice 5
+MSXspirit02:5=Voice 6
+MSXspirit02:6=Voice 7
+MSXspirit02:7=Voice 8
+MSXspirit02:8=Voice 9
+MSXspirit02:9=Voice 10
+MSXspirit02:10=Voice 11
+MSXspirit02:11=Voice 12
+MSXspirit02:12=Voice 13
+MSXspirit02:13=Voice 14
+
+# Exact MSXspirit03 presets
+MSXspirit03:0=Lute
+MSXspirit03:1=Ukulele
+MSXspirit03:2=Mandolin
+MSXspirit03:3=Whistle
+MSXspirit03:4=Flute
+
+# Exact MSXspirit04 presets
+MSXspirit04:0=Harp
+MSXspirit04:1=Drum
+MSXspirit04:2=Gayageum
+MSXspirit04:3=Flute Non-vibrato
+MSXspirit04:4=Whistle Non-vibrato
+
+# Exact MSXspirit05 presets
+MSXspirit05:0=Bass
+
+# Raw preset name fallback translations
+Lute=Lute
+Ukulele=Ukulele
+Mandolin=Mandolin
+Recorder=Recorder
+Pipe=Pipe
+Flute=Flute
+Oboe=Oboe
+Whistle=Whistle
+Bottle_C=Bottle C
+Bottle_D=Bottle D
+Bottle_E=Bottle E
+Bottle_F=Bottle F
+Bottle_G=Bottle G
+Bottle_A=Bottle A
+Bottle_B=Bottle B
+GreenFinch=Greenfinch
+FairyPitta=Fairy Pitta
+KingFisher=Kingfisher
+GreenFinch_Short=Greenfinch Short
+Tuba=Tuba
+Lyra=Lyre
+electricguitar=Electric Guitar
+Piano=Piano
+Viollin_vt=Violin Vibrato
+Violin_vt=Violin Vibrato
+Viollin_long=Violin Long Tone
+Violin_long=Violin Long Tone
+Cello=Cello
+Cello_Marcato=Cello Marcato
+Bass=Bass
+snare_c3=Snare C3
+snare_1=Snare 1
+bassdrum=Bass Drum
+cymbal=Cymbal
+Chime=Chime
+Handbell_C3=Handbell C3
+Handbell_D3=Handbell D3
+Handbell_E3=Handbell E3
+Handbell_F3=Handbell F3
+Handbell_G3=Handbell G3
+Handbell_A3=Handbell A3
+Handbell_B3=Handbell B3
+Handbell_C4=Handbell C4
+song=Voice
+Harp=Harp
+Drum=Drum
+Gayageum=Gayageum
+Flute_Nonvib=Flute Non-vibrato
+Whistle_Nonvib=Whistle Non-vibrato

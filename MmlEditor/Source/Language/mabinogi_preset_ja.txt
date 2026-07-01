@@ -1,0 +1,43 @@
+# Mabinogi preset Japanese translation
+# Folder: Language
+# File: mabinogi_preset_ja.txt
+
+# Fury_Sound_Pack_v150 / Mabinogi Mobile
+Fury_Sound_Pack_v150:18=ピアノ
+Fury_Sound_Pack_v150:20=ハープ
+Fury_Sound_Pack_v150:25=オルゴール
+Fury_Sound_Pack_v150:62=バスドラム
+Fury_Sound_Pack_v150:63=シンバル
+Fury_Sound_Pack_v150:122=マンドリン
+Fury_Sound_Pack_v150:123=リュート
+Fury_Sound_Pack_v150:124=シャリュモー
+Fury_Sound_Pack_v150:125=フルート
+Fury_Sound_Pack_v150:126=シロフォン
+Fury_Sound_Pack_v150:127=バイオリン
+
+# Compatibility aliases
+Fury Sound Pack:18=ピアノ
+Fury Sound Pack:20=ハープ
+Fury Sound Pack:25=オルゴール
+Fury Sound Pack:62=バスドラム
+Fury Sound Pack:63=シンバル
+Fury Sound Pack:122=マンドリン
+Fury Sound Pack:123=リュート
+Fury Sound Pack:124=シャリュモー
+Fury Sound Pack:125=フルート
+Fury Sound Pack:126=シロフォン
+Fury Sound Pack:127=バイオリン
+
+# Raw preset name fallback
+Piano=ピアノ
+Harp=ハープ
+Music Box=オルゴール
+Bass Drum=バスドラム
+Cymbals=シンバル
+Mandolin=マンドリン
+Mandollin=マンドリン
+Lute=リュート
+Chalumeau=シャリュモー
+Flute=フルート
+Xylophone=シロフォン
+Violin=バイオリン

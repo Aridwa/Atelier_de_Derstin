@@ -1,0 +1,4 @@
+# DLS file volume correction
+# 1.0 = raw DLS sampler output, 0.36 = safe default
+# Change values and press DLS Reload to apply.
+default=0.36
