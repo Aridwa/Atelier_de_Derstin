@@ -61,7 +61,7 @@ C++와 JUCE로 제작한 마비노기 MML 편집 도구입니다.
  - 3MLE / 3ML Editor - うに (Uni)
  - JUCE Framework - Raw Material Software Limited
 
-- ### Fury Sound Pack
+### Fury Sound Pack
 
  - 파일: `MmlEditor/MabinogiMobilePresetDls/Fury_Sound_Pack_v150.dls`
  - 제작/크레딧: Lisedrika, DovidicGJ
@@ -104,7 +104,7 @@ C++ と JUCE で制作された Mabinogi MML エディターツールです。
  - 3MLE / 3ML Editor - うに (Uni)
  - JUCE Framework - Raw Material Software Limited
 
-- ### Fury Sound Pack
+### Fury Sound Pack
 
  - ファイル: `MmlEditor/MabinogiMobilePresetDls/Fury_Sound_Pack_v150.dls`
  - 制作 / クレジット: Lisedrika, DovidicGJ
