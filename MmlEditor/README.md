@@ -37,6 +37,20 @@ This project was inspired by existing Mabinogi MML tools and resources:
 
 This project is an independent implementation and is not affiliated with NEXON or Mabinogi.
 
+### Atelier de Derstin - MML Editor
+
+Copyright (C) 2026 Derstin
+
+This project is licensed under the GNU Affero General Public License
+version 3 or later.
+
+SPDX-License-Identifier: AGPL-3.0-or-later
+
+See the LICENSE file for the full license text.
+
+This software is part of the Atelier de Derstin project.
+
+Copyright (C) 2026 Derstin
 
 ---
 
@@ -81,6 +95,21 @@ C++와 JUCE로 제작한 마비노기 MML 편집 도구입니다.
 
 이 프로젝트는 독립 구현이며 NEXON 또는 Mabinogi와 제휴되어 있지 않습니다.
 
+### Atelier de Derstin - MML Editor
+
+Copyright (C) 2026 Derstin
+
+이 프로젝트는 GNU Affero General Public License
+버전 3 또는 그 이후 버전에 따라 라이선스가 부여됩니다.
+
+SPDX-License-Identifier: AGPL-3.0-or-later
+
+전체 라이선스 전문은 LICENSE 파일을 참조하십시오.
+
+이 소프트웨어는 Atelier de Derstin 프로젝트의 일부입니다.
+
+Copyright (C) 2026 Derstin
+
 ---
 
 ## 日本語
@@ -123,3 +152,19 @@ C++ と JUCE で制作された Mabinogi MML エディターツールです。
 
 
 このプロジェクトは独立した実装であり、NEXON または Mabinogi とは提携していません。
+
+### Atelier de Derstin - MML Editor
+
+Copyright (C) 2026 Derstin
+
+本プロジェクトは、GNU Affero General Public License
+バージョン3またはそれ以降のバージョンに基づいてライセンスされています。
+
+SPDX-License-Identifier: AGPL-3.0-or-later
+
+ライセンス全文については、LICENSEファイルを参照してください。
+
+本ソフトウェアは、Atelier de Derstinプロジェクトの一部です。
+
+Copyright (C) 2026 Derstin
+
