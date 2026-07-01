@@ -44,7 +44,7 @@ Copyright (C) 2026 Derstin
 This project is licensed under the GNU Affero General Public License
 version 3 or later.
 
-SPDX-License-Identifier: AGPL-3.0-or-later
+SPDX-License-Identifier: GPL-3.0-or-later
 
 See the LICENSE file for the full license text.
 
@@ -102,7 +102,7 @@ Copyright (C) 2026 Derstin
 이 프로젝트는 GNU Affero General Public License
 버전 3 또는 그 이후 버전에 따라 라이선스가 부여됩니다.
 
-SPDX-License-Identifier: AGPL-3.0-or-later
+SPDX-License-Identifier: GPL-3.0-or-later
 
 전체 라이선스 전문은 LICENSE 파일을 참조하십시오.
 
@@ -160,7 +160,7 @@ Copyright (C) 2026 Derstin
 本プロジェクトは、GNU Affero General Public License
 バージョン3またはそれ以降のバージョンに基づいてライセンスされています。
 
-SPDX-License-Identifier: AGPL-3.0-or-later
+SPDX-License-Identifier: GPL-3.0-or-later
 
 ライセンス全文については、LICENSEファイルを参照してください。
 
