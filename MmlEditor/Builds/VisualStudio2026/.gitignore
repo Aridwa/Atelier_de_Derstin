@@ -361,3 +361,33 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+
+# Local / unlicensed sound files
+*.sf2
+*.SF2
+*.dls
+*.DLS
+
+# Allowed bundled DLS
+!MmlEditor/MabinogiMobilePresetDls/
+!MmlEditor/MabinogiMobilePresetDls/Fury_Sound_Pack_v150.dls
+
+# Local paths
+*MabinogiDlsPath.txt
+*MabinogiSoundPath.txt
+*Path.txt
+
+# Visual Studio local files
+.vs/
+*.user
+*.suo
+
+# Build outputs
+Debug/
+Release/
+x64/
+Builds/
+*.pdb
+*.ilk
+*.obj
+*.log
