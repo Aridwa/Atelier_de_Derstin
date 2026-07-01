@@ -4,7 +4,7 @@ A Mabinogi MML editor tool built with C++ and JUCE.
 
 ## License
 
-This project is licensed under AGPL-3.0-or-later.
+This project is licensed under GPL-3.0-or-later.
 
 Third-party notices are listed in `NOTICE.md`.
 
@@ -62,7 +62,7 @@ C++와 JUCE로 제작한 마비노기 MML 편집 도구입니다.
 
 ### 라이선스
 
-이 프로젝트는 AGPL-3.0-or-later 라이선스를 따릅니다.
+이 프로젝트는 GPL-3.0-or-later 라이선스를 따릅니다.
 
 서드파티 고지는 `NOTICE.md`에 정리되어 있습니다.
 
@@ -120,7 +120,7 @@ C++ と JUCE で制作された Mabinogi MML エディターツールです。
 
 ### ライセンス
 
-このプロジェクトは AGPL-3.0-or-later ライセンスの下で公開されています。
+このプロジェクトは GPL-3.0-or-later ライセンスの下で公開されています。
 
 サードパーティーに関する表記は `NOTICE.md` に記載されています。
 
