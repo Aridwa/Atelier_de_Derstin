@@ -8,6 +8,9 @@
     <Filter Include="MmlEditor\Source\CustomUI">
       <UniqueIdentifier>{316CBB0A-0EB3-B87B-6E62-04316B0CF058}</UniqueIdentifier>
     </Filter>
+    <Filter Include="MmlEditor\Source\Language">
+      <UniqueIdentifier>{75FD69CD-343B-2F5A-4724-DBF64798117C}</UniqueIdentifier>
+    </Filter>
     <Filter Include="MmlEditor\Source\MmlData">
       <UniqueIdentifier>{EA7570BA-D175-0A7B-53DD-7AAD663C063F}</UniqueIdentifier>
     </Filter>
@@ -3591,6 +3594,9 @@
     </ClCompile>
     <ClCompile Include="..\..\juce\modules\juce_gui_extra\juce_gui_extra.mm">
       <Filter>JUCE Modules\juce_gui_extra</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\JuceLibraryCode\BinaryData.cpp">
+      <Filter>JUCE Library Code</Filter>
     </ClCompile>
     <ClCompile Include="..\..\JuceLibraryCode\include_juce_audio_basics.cpp">
       <Filter>JUCE Library Code</Filter>
@@ -7686,11 +7692,23 @@
     <ClInclude Include="..\..\juce\modules\juce_gui_extra\juce_gui_extra.h">
       <Filter>JUCE Modules\juce_gui_extra</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\JuceLibraryCode\BinaryData.h">
+      <Filter>JUCE Library Code</Filter>
+    </ClInclude>
     <ClInclude Include="..\..\JuceLibraryCode\JuceHeader.h">
       <Filter>JUCE Library Code</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
+    <None Include="..\..\Source\Language\mabinogi_preset_en.txt">
+      <Filter>MmlEditor\Source\Language</Filter>
+    </None>
+    <None Include="..\..\Source\Language\mabinogi_preset_ja.txt">
+      <Filter>MmlEditor\Source\Language</Filter>
+    </None>
+    <None Include="..\..\Source\Language\mabinogi_preset_ko.txt">
+      <Filter>MmlEditor\Source\Language</Filter>
+    </None>
     <None Include="..\..\juce\modules\juce_audio_devices\native\asio\LICENSE.txt">
       <Filter>JUCE Modules\juce_audio_devices\native\asio</Filter>
     </None>
